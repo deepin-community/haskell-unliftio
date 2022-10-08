@@ -1,0 +1,50 @@
+haskell-unliftio (0.2.13-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Ilias Tsitsimpis <iliastsi@debian.org>  Mon, 17 Aug 2020 13:33:22 +0300
+
+haskell-unliftio (0.2.12.1-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Clint Adams <clint@debian.org>  Sat, 30 May 2020 12:39:50 -0400
+
+haskell-unliftio (0.2.11-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Clint Adams <clint@debian.org>  Sat, 27 Jul 2019 19:21:31 -0400
+
+haskell-unliftio (0.2.8.0-2) unstable; urgency=medium
+
+  * Remove build dependency on libghc-stm-dev (provided by ghc-8.4.3)
+
+ -- Ilias Tsitsimpis <iliastsi@debian.org>  Mon, 01 Oct 2018 17:50:20 +0300
+
+haskell-unliftio (0.2.8.0-1) unstable; urgency=medium
+
+  * Bump debhelper compat level to 10
+  * New upstream release
+
+ -- Ilias Tsitsimpis <iliastsi@debian.org>  Sun, 30 Sep 2018 13:25:14 +0300
+
+haskell-unliftio (0.2.7.0-1) unstable; urgency=medium
+
+  * Set Rules-Requires-Root to no.
+  * New upstream release
+
+ -- Clint Adams <clint@debian.org>  Mon, 02 Jul 2018 21:32:01 -0400
+
+haskell-unliftio (0.2.6.0-1) unstable; urgency=medium
+
+  * Bump to Standards-Version 4.1.4.
+  * New upstream release
+
+ -- Clint Adams <clint@debian.org>  Mon, 09 Apr 2018 17:22:10 -0400
+
+haskell-unliftio (0.1.1.0-1) unstable; urgency=low
+
+  * Initial release.
+
+ -- Clint Adams <clint@debian.org>  Mon, 18 Dec 2017 16:13:36 -0500
