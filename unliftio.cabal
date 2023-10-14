@@ -1,13 +1,11 @@
 cabal-version: 1.12
 
--- This file has been generated from package.yaml by hpack version 0.33.0.
+-- This file has been generated from package.yaml by hpack version 0.34.4.
 --
 -- see: https://github.com/sol/hpack
---
--- hash: bc7612e266638a6d07a620579aafe7d2690c4bef6d120416a1a7a3fc8999b416
 
 name:           unliftio
-version:        0.2.13
+version:        0.2.22.0
 synopsis:       The MonadUnliftIO typeclass for unlifting monads to IO (batteries included)
 description:    Please see the documentation and README at <https://www.stackage.org/package/unliftio>
 category:       Control
@@ -39,6 +37,8 @@ library
       UnliftIO.Memoize
       UnliftIO.MVar
       UnliftIO.Process
+      UnliftIO.QSem
+      UnliftIO.QSemN
       UnliftIO.STM
       UnliftIO.Temporary
       UnliftIO.Timeout
@@ -55,7 +55,7 @@ library
     , directory
     , filepath
     , process >=1.2.0.0
-    , stm >=2.4.3
+    , stm >=2.5
     , time
     , transformers
     , unliftio-core >=0.1.1.0
@@ -90,6 +90,7 @@ test-suite unliftio-spec
   main-is: Spec.hs
   other-modules:
       UnliftIO.AsyncSpec
+      UnliftIO.DirectorySpec
       UnliftIO.ExceptionSpec
       UnliftIO.IO.FileSpec
       UnliftIO.IOSpec
@@ -109,7 +110,7 @@ test-suite unliftio-spec
     , filepath
     , hspec
     , process >=1.2.0.0
-    , stm >=2.4.3
+    , stm >=2.5
     , time
     , transformers
     , unliftio
@@ -138,7 +139,7 @@ benchmark conc-bench
     , filepath
     , gauge
     , process >=1.2.0.0
-    , stm >=2.4.3
+    , stm >=2.5
     , time
     , transformers
     , unliftio
