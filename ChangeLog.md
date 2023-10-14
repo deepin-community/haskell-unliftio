@@ -1,5 +1,59 @@
 # Changelog for unliftio
 
+## 0.2.22.0
+
+* Add `UnliftIO.STM.flushTBQueue`
+* Add `UnliftIO.STM.lengthTBQueue`
+
+## 0.2.21.0
+
+* Add `UnliftIO.Directory.createDirectoryLink`
+* Add `UnliftIO.Directory.removeDirectoryLink`
+* Add `UnliftIO.Directory.getSymbolicLinkTarget`
+* Add `UnliftIO.Directory.XdgDirectoryList`
+* Add `UnliftIO.Directory.getXdgDirectoryList`
+
+## 0.2.20.1
+
+* Fix time-osx.c for aarch64 mac [#91](https://github.com/fpco/unliftio/pull/91)
+
+## 0.2.20
+
+* Add lifted `System.IO.openFile` (https://github.com/fpco/unliftio/pull/88)
+
+## 0.2.19
+
+* Add `Eq` instance for `StringException` (https://github.com/fpco/unliftio/pull/83)
+
+## 0.2.18
+
+* Reexport `asyncExceptionFromException` and `asyncExceptionToException` [#81](https://github.com/fpco/unliftio/issues/81)
+
+## 0.2.17
+
+* Re-export `AsyncCancelled` in `UnliftIO.Async` [#80](https://github.com/fpco/unliftio/pull/80)
+* Add `fromExceptionUnwrap` [#80](https://github.com/fpco/unliftio/pull/80)
+* Add `catchSyncOrAsync`, `handleSyncOrAsync`, and `trySyncOrAsync` [#80](https://github.com/fpco/unliftio/pull/80)
+
+## 0.2.16
+
+* Add `createFileLink`
+
+## 0.2.15
+
+* Updated documentation mentioning that `MonadUnliftIO` may be derived using
+  the `newtype` strategy [#72](https://github.com/fpco/unliftio/pull/72)
+* Add `mapExceptionM` [#75](https://github.com/fpco/unliftio/pull/75)
+
+## 0.2.14
+
+* Add `UnliftIO.QSem`
+* Add `UnliftIO.QSemN`
+
+## 0.2.13.1
+
+* Improve `UnliftIO.Exception` documentation
+
 ## 0.2.13
 
 * Add `UnliftIO.STM.orElse`
